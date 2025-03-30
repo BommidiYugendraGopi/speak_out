@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea,#66eae3, #764ba2);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .c {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 400px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            color: white;
+            background: #827eff;
+            border-radius: 10px;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            background: #ff4e87;
+            transform: scale(1.05);
+        }
+        .or {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="c">
+        <a href="texttospeech.html" class="btn">Text to Speech</a>
+        <div class="or">OR</div>
+        <a href="speaktotext.html" class="btn">Speech to Text</a>
+    </div>
+</body>
+</html>
